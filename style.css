@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.info-block .info-block__more-info {
+.info-block__more-info {
   font-family: fantasy, cursive;
 }
 
@@ -44,20 +44,27 @@
   display: flex;
 }
 
-.incomplete-tasks-ul, .complete-tasks-ul {
+.incomplete-tasks-ul,
+.complete-tasks-ul {
   margin: 0;
   padding: 0px;
 }
 
-.to-do__li, .mian-block__title {
+.to-do__li, 
+.mian-block__title {
   list-style: none;
 }
 
-.mian-block__new-task-input, .to-do__task-value, .to-do__checkbox, .to-do__button, .mian-block__button {
+.mian-block__new-task-input, 
+.to-do__task-value, 
+.to-do__checkbox, 
+.to-do__button, 
+.mian-block__button {
   outline: none;
 }
 
-.to-do__button, .mian-block__button {
+.to-do__button, 
+.mian-block__button {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +74,8 @@
   cursor: pointer;
 }
 
-.to-do__button:hover, .mian-block__button:hover {
+.to-do__button:hover, 
+.mian-block__button:hover {
   color: #3a3a3a;
 }
 
@@ -83,7 +91,8 @@
   text-transform: uppercase;
 }
 
-.mian-block__new-task-input, .to-do__task-value {
+.mian-block__new-task-input, 
+.to-do__task-value {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,7 +105,8 @@
   color: #888;
 }
 
-.mian-block__new-task-input:focus, .to-do__task-value:focus {
+.mian-block__new-task-input:focus, 
+.to-do__task-value:focus {
   color: #333;
 }
 
