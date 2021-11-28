@@ -4,46 +4,59 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .info-block {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .info-block__img {
   width: 100%;
 }
+
 .info-block .info-block__more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.info-block { text-align: center;
+
+  .info-block {
+    text-align: center;
+  }
+
 }
-}
+
 .mian-block {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .mian-block__new-task {
   display: flex;
 }
+
 .incomplete-tasks-ul, .complete-tasks-ul {
   margin:0;
   padding: 0px;
 }
+
 .to-do__li, .mian-block__title {
   list-style:none;
 }
+
 .mian-block__new-task-input, .to-do__task-value, .to-do__checkbox, .to-do__button, .mian-block__button {
   outline:none;
 }
+
 .to-do__button, .mian-block__button {
   background: none;
   border: 0px;
@@ -53,9 +66,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .to-do__button:hover, .mian-block__button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .mian-block__title,
 .mian-block__label {
@@ -67,6 +82,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .mian-block__new-task-input, .to-do__task-value {
   margin: 0;
   font-size: 18px;
@@ -79,20 +95,24 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .mian-block__new-task-input:focus, .to-do__task-value:focus {
   color: #333;
 }
 
 /* New Task */
+
 .mian-block__label {
   display: block;
   margin: 0 0 20px;
 }
+
 .mian-block__new-task-input {
   width: 318px;
 }
 
 /* Task list */
+
 .to-do__li {
   overflow: hidden;
   padding: 20px 0;
@@ -106,20 +126,24 @@
 .to-do__checkbox {
   margin: 0 10px;
 }
+
 .to-do__task-name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .to-do__task-value {
   width: 226px
 }
+
 .to-do__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .to-do__delete-img:hover {
   transform: rotateZ(0);
 }
@@ -132,6 +156,7 @@
 }
 
 /* Edit Task */
+
 .to-do__task-value {
     display: none
 }
