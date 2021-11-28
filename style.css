@@ -37,7 +37,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .mian-block__new-task {
@@ -135,7 +135,7 @@
 }
 
 .to-do__task-value {
-  width: 226px
+  width: 226px;
 }
 
 .to-do__delete-img {
@@ -158,12 +158,12 @@
 /* Edit Task */
 
 .to-do__task-value {
-    display: none
+    display: none;
 }
 
 .to-do__task-value_not-save {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .to-do__task-name_hide {
