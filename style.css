@@ -45,16 +45,16 @@
 }
 
 .incomplete-tasks-ul, .complete-tasks-ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .to-do__li, .mian-block__title {
-  list-style:none;
+  list-style: none;
 }
 
 .mian-block__new-task-input, .to-do__task-value, .to-do__checkbox, .to-do__button, .mian-block__button {
-  outline:none;
+  outline: none;
 }
 
 .to-do__button, .mian-block__button {
@@ -162,10 +162,10 @@
 }
 
 .to-do__task-value_not-save {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .to-do__task-name_hide {
-    display:none;
+    display: none;
 }
