@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Todo App</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body>
+
+  <body class="body">
     <div class="information-block">
       <img src="./eisenhower-matrix.jpg">
         <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
@@ -15,43 +17,44 @@
         <label for="new-task">Add Item</label>
         <div class="mian-block__new-task">
           <input id="new-task" class="task mian-block__new-task-input" type="text">
-          <button>Add</button>
+          <button class="to-do__button">Add</button>
         </div>
       </p>
-      <h3>Todo</h3>
+      <h3 class="mian-block__title">Todo</h3>
       <ul class="to-do incomplete-tasks-ul" id="incomplete-tasks">
-        <li class="incomplete-tasks-ul__li">
+        <li class="to-do__li incomplete-tasks-ul__li">
           <input class="to-do__checkbox" type="checkbox">
           <label class="to-do__task-name task">Pay Bills</label>
           <input type="text" class="to-do__task-value task">
-          <button class="to-do__edit">Edit</button>
-          <button class="to-do__delete">
-            <img src="./remove.svg">
+          <button class="to-do__edit to-do__button">Edit</button>
+          <button class="to-do__delete to-do__button">
+            <img class="to-do__delete-img" src="./remove.svg">
           </button>
         </li>
-        <li class="incomplete-tasks-ul__li_edit">
+        <li class="to-do__li incomplete-tasks-ul__li_edit">
           <input class="to-do__checkbox" type="checkbox">
           <label class="to-do__task-name task">Go Shopping</label>
           <input type="text" value="Go Shopping" class="to-do__task-value task">
-          <button class="to-do__edit">Save</button>
-          <button class="to-do__delete">
-            <img src="./remove.svg">
+          <button class="to-do__edit to-do__button">Save</button>
+          <button class="to-do__delete to-do__button">
+            <img class="to-do__delete-img" src="./remove.svg">
           </button>
         </li>
       </ul>
-      <h3>Completed</h3>
+      <h3 class="mian-block__title">Completed</h3>
       <ul class="to-do complete-tasks-ul" id="completed-tasks">
-        <li class="complete-tasks-ul__li">
+        <li class="to-do__li complete-tasks-ul__li">
           <input class="to-do__checkbox" type="checkbox" checked>
           <label class="to-do__task-name task">See the Doctor</label>
           <input type="text" class="to-do__task-value task">
-          <button class="to-do__edit">Edit</button>
-          <button class="to-do__delete">
-            <img src="./remove.svg">
+          <button class="to-do__edit to-do__button">Edit</button>
+          <button class="to-do__delete to-do__button">
+            <img class="to-do__delete-img" src="./remove.svg">
           </button>
         </li>
       </ul>
     </div>
     <script src="app.js"></script>
   </body>
+  
 </html>
