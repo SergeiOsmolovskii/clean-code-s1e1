@@ -161,21 +161,21 @@
 /* Completed */
 
 .to-do__task-name_complite {
-    text-decoration: line-through;
-    color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
 
 .to-do__task-value {
-    display: none;
+  display: none;
 }
 
 .to-do__task-value_not-save {
-    display: inline-block;
-    width: 224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .to-do__task-name_hide {
-    display: none;
+  display: none;
 }
