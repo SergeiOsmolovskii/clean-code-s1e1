@@ -34,7 +34,9 @@
   margin: 0 auto 0;
 }
 
-.task {
+.mian-block__new-task-input,
+.to-do__task-name,
+.to-do__task-value {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
