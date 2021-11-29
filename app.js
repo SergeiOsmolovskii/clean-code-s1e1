@@ -133,9 +133,6 @@ var deleteTask=function(){
 //Mark task completed
 var taskCompleted=function(){
     console.log("Complete Task...");
-    console.log(this.parentNode);
-
-
     //Append the task list item to the #completed-tasks
     var listItem=this.parentNode;
     const listItemLabel = listItem.querySelector("label");
